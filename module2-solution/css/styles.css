@@ -2,6 +2,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: sans-serif;
 }
 
 .row {
@@ -98,7 +99,6 @@
 
 h1 {
   text-align: center;
-  font-family: serif;
   font-size: 2em;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -110,15 +110,25 @@ h1 {
   border: 2px solid black;
 }
 
-div.title > p{
-  position: relative;
-  top: 0;
-  right: 0;
-  width: 100px;
+.titleContent{
+  margin-left: calc(100% - 150px);
+  width: 150px;
   font-size: 1.25em;
   text-align: center;
-  background-color: red;
   border: 1px solid black;
+}
+
+.chicken {
+  background-color:#f18e92;
+}
+
+.beef {
+  background-color: #c40d4b;
+  color: white;
+}
+
+.sushi {
+  background-color: #e9bc72;
 }
 
 .details {
