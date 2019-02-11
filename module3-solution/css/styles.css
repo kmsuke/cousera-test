@@ -1,45 +1,49 @@
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-  font-family: sans-serif;
+body {
+  font-size: 16px;
+  font-family: 'Oxygen', sans-serif;
 }
 
-
-h1 {
+/* HEADER */
+#header-nav {
+  background-color: #777;
+  border: 0;
+}
+.navbar-brand h1 {
+  font-size: 1.5em;
+  color: #000000;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+#nav-list a {
   text-align: center;
-  font-size: 2em;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  color: #000000;
 }
 
+/* MAIN */
+h2 {
+    text-align: center;
+}
 .menuContent {
   margin: 10px 15px 20px 15px;
-  background-color: gray;
   border: 2px solid black;
 }
-
 .titleContent{
-  margin-left: calc(100% - 150px);
-  width: 150px;
   font-size: 1.25em;
   text-align: center;
-  border: 1px solid black;
 }
-
 .chicken {
-  background-color:#f18e92;
 }
-
 .beef {
-  background-color: #c40d4b;
-  color: white;
 }
-
 .sushi {
-  background-color: #e9bc72;
 }
-
 .details {
   padding: 10px;
+}
+
+/********** Extra small devices only **********/
+@@media (max-width: 767px) {
+  #collapsable-nav {
+    background-color: #ffffff;
+  }
 }

@@ -4,21 +4,60 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Assignment Solution for Module 3</title>
-
-    <link rel="stylesheet" type="text/css" href="/lib/css/bootstrap.min.css">
+    <title>Module 3</title>
+    <link rel="stylesheet" type="text/css" href="lib/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
   </head>
 
   <body>
-    <div class="container">
+    <header>
+      <nav id="header-nav" class="navbar navbar-expand-lg navbar-inverse">
+        <div class="container">
+          <div class="navbar-header">
+            <div class="navbar-brand pull-left">
+              <h1>Food,LLC</h1>
+            </div>
+
+            <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#collapsable-nav" aria-controls="collapsable-nav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+
+          <div class="collapse navbar-collapse" id="collapsable-nav">
+            <ul id="nav-list" class="nav navbar-nav navbar-right hidden-sm hidden-md hidden-lg">
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  Chicken
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  Beef
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  Sushi
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div id="main-content" class="container">
       <div class="row">
-        <h1>Our Menu</h1>
+        <h2>Our Menu</h2>
       </div>
       <div class="row">
         <div class="col-sm-6 col-md-4">
           <div class="menuContent">
-            <div class="title">
+            <div id="chicken" class="title">
               <p class="titleContent chicken">Chicken</p>
             </div>
             <div class="details">
@@ -27,7 +66,7 @@
           </div>
         </div>
         <div class="col-sm-6 col-md-4">
-          <div class="menuContent">
+          <div id="beef" class="menuContent">
             <div class="title">
               <p class="titleContent beef">Beef</p>
             </div>
@@ -37,7 +76,7 @@
           </div>
         </div>
         <div class="col-sm-12 col-md-4">
-          <div class="menuContent">
+          <div id="sushi" class="menuContent">
             <div class="title">
               <p class="titleContent sushi">Sushi</p>
             </div>
@@ -48,5 +87,9 @@
         </div>
       </div>
     </div>
+
+    <script src="lib/js/jquery-1.11.3.min.js"></script>
+    <script src="lib/js/bootstrap.min.js"></script>
+    <script src="lib/js/script.js"></script>
   </body>
 </html>
