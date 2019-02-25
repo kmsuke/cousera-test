@@ -9,6 +9,9 @@ body {
   border: 0;
   margin-bottom: 0;
 }
+#header-nav .container {
+  align-items: center;
+}
 .navbar-brand h1 {
   font-size: 1.5em;
   color: #000;
@@ -24,16 +27,14 @@ body {
 h2 {
     text-align: center;
 }
-.menuContent {
-  margin: 10px 15px 20px 15px;
-  border: 2px solid black;
-}
 .titleContent{
   font-size: 1.25em;
   text-align: center;
 }
 #main-content .menuContent {
   background-color: #a0a0a0;
+  margin: 10px 15px 20px 15px;
+  border: 2px solid black;
 }
 .details {
   padding: 10px;
