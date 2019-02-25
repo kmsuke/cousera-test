@@ -5,12 +5,13 @@ body {
 
 /* HEADER */
 #header-nav {
-  background-color: #777;
+  background-color: #a0a0a0;
   border: 0;
+  margin-bottom: 0;
 }
 .navbar-brand h1 {
   font-size: 1.5em;
-  color: #000000;
+  color: #000;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -31,11 +32,8 @@ h2 {
   font-size: 1.25em;
   text-align: center;
 }
-.chicken {
-}
-.beef {
-}
-.sushi {
+#main-content .menuContent {
+  background-color: #a0a0a0;
 }
 .details {
   padding: 10px;
@@ -43,7 +41,22 @@ h2 {
 
 /********** Extra small devices only **********/
 @@media (max-width: 767px) {
+  #header-nav .navbar-toggle {
+    background-color: #a0a0a0;
+    border: 2px solid #bbb;
+  }
+  #header-nav .navbar-toggle .icon-bar {
+    background-color: #bbb;
+    height: 4px;
+  }
   #collapsable-nav {
     background-color: #ffffff;
+  }
+  #nav-list {
+    border: solid 1px #000;
+    margin-top: 0;
+  }
+  #nav-list .nav-item {
+    border: solid 1px #000;
   }
 }
