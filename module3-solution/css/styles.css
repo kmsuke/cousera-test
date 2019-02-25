@@ -41,7 +41,7 @@ h2 {
 }
 
 /********** Extra small devices only **********/
-@@media (max-width: 767px) {
+@media (max-width: 767px) {
   #header-nav .navbar-toggle {
     background-color: #a0a0a0;
     border: 2px solid #bbb;
